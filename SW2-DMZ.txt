@@ -1,0 +1,57 @@
+! =============================================================
+! SW2-DMZ (IOSvL2)
+! Gi0/0 -> FortiGate port3 (DMZ)
+! Gi0/1 -> SRV-CAJA | Gi0/2 -> SRV-INVENTARIO | Gi0/3 -> SRV-DB
+! =============================================================
+enable
+conf t
+hostname SW2-DMZ
+!
+! --- VLANs ---
+vlan 30
+ name DMZ
+vlan 999
+ name BLACKHOLE
+exit
+!
+interface range Gi0/0 - 3
+ switchport mode access
+ switchport access vlan 30
+!
+interface Gi0/0
+ description HACIA-FORTIGATE-PORT3
+!
+! --- Puertos de servidores ---
+interface range Gi0/1 - 3
+ description SERVIDORES-DMZ
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+ switchport port-security
+ switchport port-security maximum 2
+ switchport port-security mac-address sticky
+ switchport port-security violation restrict
+!
+! --- Puertos sin uso ---
+interface range Gi1/0 - 3
+ switchport mode access
+ switchport access vlan 999
+ shutdown
+!
+! --- Seguridad básica ---
+enable secret Cisco123
+service password-encryption
+no ip domain-lookup
+ip domain-name lab.local
+username admin privilege 15 secret Cisco123
+crypto key generate rsa modulus 2048
+ip ssh version 2
+line vty 0 4
+ login local
+ transport input ssh
+line con 0
+ login local
+ exec-timeout 10 0
+exit
+banner motd #Acceso solo personal autorizado#
+end
+wr

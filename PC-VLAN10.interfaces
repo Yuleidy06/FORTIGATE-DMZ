@@ -1,0 +1,4 @@
+# GNS3 -> clic derecho en PC-VLAN10 (Webterm) -> Edit config
+# IP asignada por el DHCP del FortiGate (10.9.49.10 - 10.9.49.120)
+auto eth0
+iface eth0 inet dhcp

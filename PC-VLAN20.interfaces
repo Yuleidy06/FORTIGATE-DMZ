@@ -1,0 +1,11 @@
+# GNS3 -> clic derecho en PC-VLAN20 (Webterm) -> Edit config
+# IP estática usada para el acceso inicial al GUI del FortiGate.
+# Para usar DHCP (10.9.49.138 - 10.9.49.250), reemplazar por:
+#   auto eth0
+#   iface eth0 inet dhcp
+auto eth0
+iface eth0 inet static
+	address 10.9.49.130
+	netmask 255.255.255.128
+	gateway 10.9.49.129
+	up echo nameserver 8.8.8.8 > /etc/resolv.conf

@@ -1,0 +1,2667 @@
+SW-1
+
+
+                             GNU GRUB  version 2.00
+
+ +--------------------------------------------------------------------------+
+ |IOSv: flash0:vios_l2-adventerprisek9-m (hd0,msdos1)                       |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ +--------------------------------------------------------------------------+
+
+      Use the ^ and v keys to select which entry is highlighted.
+      Press enter to boot the selected OS, `e' to edit the commands
+      before booting or `c' for a command-line. ESC to return
+      previous menu.
+   The highlighted entry will be executed automatically in 0s.
+  Booting `IOSv: flash0:vios_l2-adventerprisek9-m (hd0,msdos1)'
+
+Booted IOSv. Boot args: [/vios_l2-adventerprisek9-m]
+
+Smart Init is enabled
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M), Experimental Version 15.2(20200924:215240) [sweickge-sep24-2020-l2iol-release 135]
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Tue 29-Sep-20 11:53 by sweickge
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Cisco IOSv () processor (revision 1.0) with 673025K/111616K bytes of memory.
+Processor board ID 9Y6YG4Q2TIX
+8 Gigabit Ethernet interfaces
+DRAM configuration is 72 bits wide with parity disabled.
+256K bytes of non-volatile configuration memory.
+4194288K bytes of ATA System CompactFlash 0 (Read/Write)
+0K bytes of ATA CompactFlash 1 (Read/Write)
+0K bytes of ATA CompactFlash 2 (Read/Write)
+0K bytes of ATA CompactFlash 3 (Read/Write)
+
+
+
+Press RETURN to get started!
+
+
+*Mar  1 00:00:01.144: %ATA-6-DEV_FOUND: device 0x1F0
+*Mar  1 00:00:01.382: %NVRAM-5-CONFIG_NVRAM_READ_OK: NVRAM configuration 'flash:/nvram' was read from disk.
+*Oct 10 15:20:27.851: %SPANTREE-5-EXTENDED_SYSID: Extended SysId enabled for type vlan
+*Oct 10 15:20:31.092: %LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to reset
+*Oct 10 15:20:31.093: %LINK-5-CHANGED: Interface GigabitEthernet0/1, changed state to reset
+*Oct 10 15:20:31.093: %LINK-5-CHANGED: Interface GigabitEthernet0/2, changed state to reset
+*Oct 10 15:20:31.094: %LINK-5-CHANGED: Interface GigabitEthernet0/3, changed state to reset
+*Oct 10 15:20:31.094: %LINK-5-CHANGED: Interface GigabitEthernet1/0, changed state to reset
+*Oct 10 15:20:31.094: %LINK-5-CHANGED: Interface GigabitEthernet1/1, changed state to reset
+*Oct 10 15:20:31.095: %LINK-5-CHANGED: Interface GigabitEthernet1/2, changed state to reset
+*Oct 10 15:20:31.280: %PARSER-4-BADCFG: Unexpected end of configuration file.
+
+*Oct 10 15:20:31.651: %SYS-5-CONFIG_I: Configured from memory by console
+*Oct 10 15:20:32.240: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+*Oct 10 15:20:32.241: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+*Oct 10 15:20:32.241: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+*Oct 10 15:20:32.241: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/3, changed state to down
+*Oct 10 15:20:32.242: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0, changed state to down
+*Oct 10 15:20:32.242: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/1, changed state to down
+*Oct 10 15:20:32.243: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/2, changed state to down
+*Oct 10 15:20:32.243: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/3, changed state to down
+*Oct 10 15:20:33.247: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M), Experimental Version 15.2(20200924:215240) [sweickge-sep24-2020-l2iol-release 135]
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Tue 29-Sep-20 11:53 by sweickge
+*Oct 10 15:20:33.284: %PNP-6-PNP_DISCOVERY_STOPPED: PnP Discovery stopped (Startup Config Present)
+*Oct 10 15:20:33.294: %LINK-5-CHANGED: Interface GigabitEthernet1/3, changed state to administratively down
+*Oct 10 15:20:33.294: %LINK-5-CHANGED: Interface GigabitEthernet1/2, changed state to administratively down
+*Oct 10 15:20:33.294: %LINK-5-CHANGED: Interface GigabitEthernet1/1, changed state to administratively down
+*Oct 10 15:20:33.295: %LINK-5-CHANGED: Interface GigabitEthernet1/0, changed state to adminis% Generating 1024 bit RSA keys, tratively down
+*Oct 10 15:20:33.296: %LINK-5-CHANGED: Interface GigabitEthernet0/3, changed state to administratively down
+*Oct 10 15:20:33.296: %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to up
+*Oct 10 15:20:33.298: %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+*Oct 10 15:20:33.299: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to upkeys will be non-exportable...
+[OK] (elapsed time was 1 seconds)
+Failed to generate persistent self-signed certificate.
+    Secure server will use temporary self-signed certificate.
+
+*Oct 10 15:21:22.967: %SSH-5-ENABLED: SSH 2.0 has been enabled
+*Oct 10 15:23:10.785: %PLATFORM-5-SIGNATURE_VERIFIED: Image 'flash0:/vios_l2-adventerprisek9-m' passed code signing verificationAcceso solo personal autorizado
+IOSv - Cisco Systems Confidential -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+
+
+User Access Verification
+
+Username: ADMIN
+Password:
+IOSv - Cisco Systems Confidential -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+
+SW1-USUARIOS#
+SW1-USUARIOS#enable
+SW1-USUARIOS#terminal length 0
+SW1-USUARIOS#show running-config
+Building configuration...
+
+Current configuration : 4224 bytes
+!
+! Last configuration change at 15:20:41 UTC Sat Oct 10 2026
+!
+version 15.2
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+service compress-config
+!
+hostname SW1-USUARIOS
+!
+boot-start-marker
+boot-end-marker
+!
+!
+enable secret 5 $1$dLdm$1Qf6NOUDkQt2DPsAZzFwg.
+!
+username admin privilege 15 secret 5 $1$CHpH$pTAuABnCtukFQe3XXTuXo1
+no aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+no ip domain-lookup
+ip domain-name lab.local
+ip cef
+no ipv6 cef
+!
+!
+!
+spanning-tree mode pvst
+spanning-tree extend system-id
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface GigabitEthernet0/0
+ switchport trunk allowed vlan 10,20
+ switchport trunk encapsulation dot1q
+ switchport trunk native vlan 99
+ switchport mode trunk
+ switchport nonegotiate
+ negotiation auto
+ ip dhcp snooping trust
+!
+interface GigabitEthernet0/1
+ switchport access vlan 10
+ switchport mode access
+ switchport port-security maximum 2
+ switchport port-security violation restrict
+ switchport port-security mac-address sticky
+ switchport port-security mac-address sticky 0242.d241.a700
+ switchport port-security
+ negotiation auto
+ spanning-tree portfast edge
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/2
+ switchport access vlan 20
+ switchport mode access
+ switchport port-security maximum 2
+ switchport port-security violation restrict
+ switchport port-security mac-address sticky
+ switchport port-security mac-address sticky 0242.45fa.f300
+ switchport port-security
+ negotiation auto
+ spanning-tree portfast edge
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/3
+ switchport access vlan 999
+ switchport mode access
+ shutdown
+ negotiation auto
+!
+interface GigabitEthernet1/0
+ switchport access vlan 999
+ switchport mode access
+ shutdown
+ negotiation auto
+!
+interface GigabitEthernet1/1
+ switchport access vlan 999
+ switchport mode access
+ shutdown
+ negotiation auto
+!
+interface GigabitEthernet1/2
+ switchport access vlan 999
+ switchport mode access
+ shutdown
+ negotiation auto
+!
+interface GigabitEthernet1/3
+ switchport access vlan 999
+ switchport mode access
+ shutdown
+ negotiation auto
+!
+ip forward-protocol nd
+!
+ip http server
+ip http secure-server
+!
+ip ssh version 2
+ip ssh server algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+ip ssh client algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+!
+!
+!
+!
+!
+!
+control-plane
+!
+banner exec ^C
+IOSv - Cisco Systems Confidential -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+^C
+banner incoming ^C
+IOSv - Cisco Systems Confidential -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+^C
+banner login ^C
+IOSv - Cisco Systems Confidential -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+^C
+banner motd ^CAcceso solo personal autorizado^C
+!
+line con 0
+ login local
+line aux 0
+line vty 0 4
+ login local
+ transport input ssh
+!
+!
+end
+
+SW1-USUARIOS#
+***************************************************************************************************************
+SW-2
+
+
+                             GNU GRUB  version 2.00
+
+ +--------------------------------------------------------------------------+
+ |IOSv: flash0:vios_l2-adventerprisek9-m (hd0,msdos1)                       |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ +--------------------------------------------------------------------------+
+
+      Use the ^ and v keys to select which entry is highlighted.
+      Press enter to boot the selected OS, `e' to edit the commands
+      before booting or `c' for a command-line. ESC to return
+      previous menu.
+   The highlighted entry will be executed automatically in 0s.
+  Booting `IOSv: flash0:vios_l2-adventerprisek9-m (hd0,msdos1)'
+
+Booted IOSv. Boot args: [/vios_l2-adventerprisek9-m]
+
+Smart Init is enabled
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M), Experimental Version 15.2(20200924:215240) [sweickge-sep24-2020-l2iol-release 135]
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Tue 29-Sep-20 11:53 by sweickge
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Cisco IOSv () processor (revision 1.0) with 673025K/111616K bytes of memory.
+Processor board ID 9QEQ0W89VGS
+8 Gigabit Ethernet interfaces
+DRAM configuration is 72 bits wide with parity disabled.
+256K bytes of non-volatile configuration memory.
+4194288K bytes of ATA System CompactFlash 0 (Read/Write)
+0K bytes of ATA CompactFlash 1 (Read/Write)
+0K bytes of ATA CompactFlash 2 (Read/Write)
+0K bytes of ATA CompactFlash 3 (Read/Write)
+
+
+
+Press RETURN to get started!
+
+
+*Mar  1 00:00:01.575: %ATA-6-DEV_FOUND: device 0x1F0
+*Mar  1 00:00:01.887: %NVRAM-5-CONFIG_NVRAM_READ_OK: NVRAM configuration 'flash:/nvram' was read from disk.
+*Oct 10 15:12:03.217: %SPANTREE-5-EXTENDED_SYSID: Extended SysId enabled for type vlan
+*Oct 10 15:12:06.208: %LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to reset
+*Oct 10 15:12:06.209: %LINK-5-CHANGED: Interface GigabitEthernet0/1, changed state to reset
+*Oct 10 15:12:06.209: %LINK-5-CHANGED: Interface GigabitEthernet0/2, changed state to reset
+*Oct 10 15:12:06.210: %LINK-5-CHANGED: Interface GigabitEthernet0/3, changed state to reset
+*Oct 10 15:12:06.210: %LINK-5-CHANGED: Interface GigabitEthernet1/0, changed state to reset
+*Oct 10 15:12:06.211: %LINK-5-CHANGED: Interface GigabitEthernet1/1, changed state to reset
+*Oct 10 15:12:06.211: %LINK-5-CHANGED: Interface GigabitEthernet1/2, changed state to reset
+*Oct 10 15:12:06.702: %SYS-5-CONFIG_I: Configured from memory by console
+*Oct 10 15:12:07.315: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+*Oct 10 15:12:07.316: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+*Oct 10 15:12:07.316: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+*Oct 10 15:12:07.316: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/3, changed state to up
+*Oct 10 15:12:07.317: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0, changed state to down
+*Oct 10 15:12:07.317: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/1, changed state to down
+*Oct 10 15:12:07.317: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/2, changed state to down
+*Oct 10 15:12:07.318: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/3, changed state to down
+*Oct 10 15:12:08.310: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M), Experimental Version 15.2(20200924:215240) [sweickge-sep24-2020-l2iol-release 135]
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Tue 29-Sep-20 11:53 by sweickge
+*Oct 10 15:12:08.340: %PNP-6-PNP_DISCOVERY_STOPPED: PnP Discovery stopped (Startup Config Present)
+*Oct 10 15:12:08.344: %SSH-5-ENABLED: SSH 2.0 has been enabled
+*Oct 10 15:12:08.352: %LINK-5-CHANGED: Interface GigabitEthernet1/3, changed state to administratively down
+*Oct 10 15:12:08.352: %LINK-5-CHANGED: Interface GigabitEthernet1/2, changed state to administratively down
+*Oct 10 15:12:08.352: %LINK-5-CHANGED: Interface GigabitEthernet1/1, changed state to administratively down
+*Oct 10 15:12:08.353: %LINK-5-CHANGED: Interface GigabitEthernet1/0, changed state to administratively down
+*Oc% Generating 1024 bit RSA keys, keys will be non-exportable...t 10 15:12:08.353: %LINK-3-UPDOWN: Interface GigabitEthernet0/3, changed state to up
+*Oct 10 15:12:08.355: %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to up
+*Oc
+[OK] (elapsed time was 3 seconds)
+Failed to gt 10 15:12:08.356: %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+*Oct 10 15:12:08.359: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to upenerate persistent self-signed certificate.
+    Secure server will use temporary self-signed certificate.
+
+*Oct 10 15:13:45.403: %PLATFORM-5-SIGNATURE_VERIFIED: Image 'flash0:/vios_l2-adventerprisek9-m' passed code signing verificationAcceso solo personal autorizado
+IOSv - Cisco Systems Confidential -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+
+
+User Access Verification
+
+Username: admin
+Password:
+IOSv - Cisco Systems Confidential -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+
+SW2-DMZ#enable
+SW2-DMZ#terminal length 0
+SW2-DMZ#show running-config
+Building configuration...
+
+Current configuration : 4472 bytes
+!
+! Last configuration change at 15:12:17 UTC Sat Oct 10 2026
+!
+version 15.2
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+service compress-config
+!
+hostname SW2-DMZ
+!
+boot-start-marker
+boot-end-marker
+!
+!
+enable secret 5 $1$bAfP$MR0fm7d0fvJWcqLfyV0GN.
+!
+username admin privilege 15 secret 5 $1$awQi$LevT4a/bGvRRYOiCylWPZ0
+no aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+no ip domain-lookup
+ip domain-name lab.local
+ip cef
+no ipv6 cef
+!
+!
+!
+spanning-tree mode pvst
+spanning-tree extend system-id
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface GigabitEthernet0/0
+ description HACIA-FORTIGATE-PORT3
+ switchport access vlan 30
+ switchport mode access
+ negotiation auto
+!
+interface GigabitEthernet0/1
+ description SERVIDORES-DMZ
+ switchport access vlan 30
+ switchport mode access
+ switchport port-security maximum 2
+ switchport port-security violation restrict
+ switchport port-security mac-address sticky
+ switchport port-security mac-address sticky 0242.2c18.6000
+ switchport port-security
+ negotiation auto
+ spanning-tree portfast edge
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/2
+ description SERVIDORES-DMZ
+ switchport access vlan 30
+ switchport mode access
+ switchport port-security maximum 2
+ switchport port-security violation restrict
+ switchport port-security mac-address sticky
+ switchport port-security mac-address sticky 0242.bfb1.e900
+ switchport port-security
+ negotiation auto
+ spanning-tree portfast edge
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/3
+ description SERVIDORES-DMZ
+ switchport access vlan 30
+ switchport mode access
+ switchport port-security maximum 2
+ switchport port-security violation restrict
+ switchport port-security mac-address sticky
+ switchport port-security mac-address sticky 0242.5edb.f800
+ switchport port-security
+ negotiation auto
+ spanning-tree portfast edge
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet1/0
+ switchport access vlan 999
+ switchport mode access
+ shutdown
+ negotiation auto
+!
+interface GigabitEthernet1/1
+ switchport access vlan 999
+ switchport mode access
+ shutdown
+ negotiation auto
+!
+interface GigabitEthernet1/2
+ switchport access vlan 999
+ switchport mode access
+ shutdown
+ negotiation auto
+!
+interface GigabitEthernet1/3
+ switchport access vlan 999
+ switchport mode access
+ shutdown
+ negotiation auto
+!
+ip forward-protocol nd
+!
+ip http server
+ip http secure-server
+!
+ip ssh version 2
+ip ssh server algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+ip ssh client algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+!
+!
+!
+!
+!
+!
+control-plane
+!
+banner exec ^C
+IOSv - Cisco Systems Confidential -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+^C
+banner incoming ^C
+IOSv - Cisco Systems Confidential -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+^C
+banner login ^C
+IOSv - Cisco Systems Confidential -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+^C
+banner motd ^CAcceso solo personal autorizado^C
+!
+line con 0
+ login local
+line aux 0
+line vty 0 4
+ login local
+ transport input ssh
+!
+!
+end
+
+SW2-DMZ#
+****************************************************************************************************************
+FORTIGATE
+
+            config filters
+                edit 1
+                next
+                edit 2
+                    set category 1
+                next
+                edit 3
+                    set category 2
+                next
+                edit 4
+                    set category 3
+                next
+                edit 5
+                    set category 4
+                next
+                edit 6
+                    set category 5
+                next
+                edit 7
+                    set category 6
+                next
+                edit 8
+                    set category 7
+                next
+                edit 9
+                    set category 8
+                next
+                edit 10
+                    set category 9
+                next
+                edit 11
+                    set category 11
+                next
+                edit 12
+                    set category 12
+                next
+                edit 13
+                    set category 13
+                next
+                edit 14
+                    set category 14
+                next
+                edit 15
+                    set category 15
+                next
+                edit 16
+                    set category 16
+                next
+                edit 17
+                    set category 17
+                next
+                edit 18
+                    set category 18
+                next
+                edit 19
+                    set category 19
+                next
+                edit 20
+                    set category 20
+                next
+                edit 21
+                    set category 23
+                next
+                edit 22
+                    set category 24
+                next
+                edit 23
+                    set category 25
+                next
+                edit 24
+                    set category 26
+                next
+                edit 25
+                    set category 28
+                next
+                edit 26
+                    set category 29
+                next
+                edit 27
+                    set category 30
+                next
+                edit 28
+                    set category 31
+                next
+                edit 29
+                    set category 33
+                next
+                edit 30
+                    set category 34
+                next
+                edit 31
+                    set category 35
+                next
+                edit 32
+                    set category 36
+                next
+                edit 33
+                    set category 37
+                next
+                edit 34
+                    set category 38
+                next
+                edit 35
+                    set category 39
+                next
+                edit 36
+                    set category 40
+                next
+                edit 37
+                    set category 41
+                next
+                edit 38
+                    set category 42
+                next
+                edit 39
+                    set category 43
+                next
+                edit 40
+                    set category 44
+                next
+                edit 41
+                    set category 46
+                next
+                edit 42
+                    set category 47
+                next
+                edit 43
+                    set category 48
+                next
+                edit 44
+                    set category 49
+                next
+                edit 45
+                    set category 50
+                next
+                edit 46
+                    set category 51
+                next
+                edit 47
+                    set category 52
+                next
+                edit 48
+                    set category 53
+                next
+                edit 49
+                    set category 54
+                next
+                edit 50
+                    set category 55
+                next
+                edit 51
+                    set category 56
+                next
+                edit 52
+                    set category 57
+                next
+                edit 53
+                    set category 58
+                next
+                edit 54
+                    set category 59
+                next
+                edit 55
+                    set category 61
+                next
+                edit 56
+                    set category 62
+                next
+                edit 57
+                    set category 63
+                next
+                edit 58
+                    set category 64
+                next
+                edit 59
+                    set category 65
+                next
+                edit 60
+                    set category 66
+                next
+                edit 61
+                    set category 67
+                next
+                edit 62
+                    set category 68
+                next
+                edit 63
+                    set category 69
+                next
+                edit 64
+                    set category 70
+                next
+                edit 65
+                    set category 71
+                next
+                edit 66
+                    set category 72
+                next
+                edit 67
+                    set category 75
+                next
+                edit 68
+                    set category 76
+                next
+                edit 69
+                    set category 77
+                next
+                edit 70
+                    set category 78
+                next
+                edit 71
+                    set category 79
+                next
+                edit 72
+                    set category 80
+                next
+                edit 73
+                    set category 81
+                next
+                edit 74
+                    set category 82
+                next
+                edit 75
+                    set category 83
+                next
+                edit 76
+                    set category 84
+                next
+                edit 77
+                    set category 85
+                next
+                edit 78
+                    set category 86
+                next
+                edit 79
+                    set category 87
+                next
+                edit 80
+                    set category 88
+                next
+                edit 81
+                    set category 89
+                next
+                edit 82
+                    set category 90
+                next
+                edit 83
+                    set category 91
+                next
+                edit 84
+                    set category 92
+                next
+                edit 85
+                    set category 93
+                next
+                edit 86
+                    set category 94
+                next
+                edit 87
+                    set category 95
+                next
+                edit 88
+                    set category 96
+                next
+                edit 89
+                    set category 97
+                next
+                edit 90
+                    set category 98
+                next
+                edit 91
+                    set category 99
+                next
+            end
+        end
+    next
+    edit "wifi-default"
+        set comment "Default configuration for offloading WiFi traffic."
+        set options block-invalid-url
+        config ftgd-wf
+            unset options
+            config filters
+                edit 1
+                    set action block
+                next
+                edit 2
+                    set category 2
+                    set action block
+                next
+                edit 3
+                    set category 7
+                    set action block
+                next
+                edit 4
+                    set category 8
+                    set action block
+                next
+                edit 5
+                    set category 9
+                    set action block
+                next
+                edit 6
+                    set category 11
+                    set action block
+                next
+                edit 7
+                    set category 13
+                    set action block
+                next
+                edit 8
+                    set category 14
+                    set action block
+                next
+                edit 9
+                    set category 15
+                    set action block
+                next
+                edit 10
+                    set category 16
+                    set action block
+                next
+                edit 11
+                    set category 26
+                    set action block
+                next
+                edit 12
+                    set category 57
+                    set action block
+                next
+                edit 13
+                    set category 61
+                    set action block
+                next
+                edit 14
+                    set category 63
+                    set action block
+                next
+                edit 15
+                    set category 64
+                    set action block
+                next
+                edit 16
+                    set category 65
+                    set action block
+                next
+                edit 17
+                    set category 66
+                    set action block
+                next
+                edit 18
+                    set category 67
+                    set action block
+                next
+                edit 19
+                    set category 83
+                    set action block
+                next
+                edit 20
+                    set category 86
+                    set action block
+                next
+                edit 21
+                    set category 88
+                    set action block
+                next
+                edit 22
+                    set category 90
+                    set action block
+                next
+                edit 23
+                    set category 91
+                    set action block
+                next
+                edit 24
+                    set category 96
+                    set action block
+                next
+                edit 25
+                    set category 98
+                    set action block
+                next
+                edit 26
+                    set category 99
+                    set action block
+                next
+                edit 27
+                    set category 1
+                next
+                edit 28
+                    set category 3
+                next
+                edit 29
+                    set category 4
+                next
+                edit 30
+                    set category 5
+                next
+                edit 31
+                    set category 6
+                next
+                edit 32
+                    set category 12
+                next
+                edit 33
+                    set category 59
+                next
+                edit 34
+                    set category 62
+                next
+            end
+        end
+    next
+    edit "monitor-all"
+        set comment "Monitor and log all visited URLs, flow-based."
+        config ftgd-wf
+            unset options
+            config filters
+                edit 1
+                    set category 1
+                next
+                edit 2
+                    set category 3
+                next
+                edit 3
+                    set category 4
+                next
+                edit 4
+                    set category 5
+                next
+                edit 5
+                    set category 6
+                next
+                edit 6
+                    set category 12
+                next
+                edit 7
+                    set category 59
+                next
+                edit 8
+                    set category 62
+                next
+                edit 9
+                    set category 83
+                next
+                edit 10
+                    set category 2
+                next
+                edit 11
+                    set category 7
+                next
+                edit 12
+                    set category 8
+                next
+                edit 13
+                    set category 9
+                next
+                edit 14
+                    set category 11
+                next
+                edit 15
+                    set category 13
+                next
+                edit 16
+                    set category 14
+                next
+                edit 17
+                    set category 15
+                next
+                edit 18
+                    set category 16
+                next
+                edit 19
+                    set category 57
+                next
+                edit 20
+                    set category 63
+                next
+                edit 21
+                    set category 64
+                next
+                edit 22
+                    set category 65
+                next
+                edit 23
+                    set category 66
+                next
+                edit 24
+                    set category 67
+                next
+                edit 25
+                    set category 19
+                next
+                edit 26
+                    set category 24
+                next
+                edit 27
+                    set category 25
+                next
+                edit 28
+                    set category 72
+                next
+                edit 29
+                    set category 75
+                next
+                edit 30
+                    set category 76
+                next
+                edit 31
+                    set category 26
+                next
+                edit 32
+                    set category 61
+                next
+                edit 33
+                    set category 86
+                next
+                edit 34
+                    set category 17
+                next
+                edit 35
+                    set category 18
+                next
+                edit 36
+                    set category 20
+                next
+                edit 37
+                    set category 23
+                next
+                edit 38
+                    set category 28
+                next
+                edit 39
+                    set category 29
+                next
+                edit 40
+                    set category 30
+                next
+                edit 41
+                    set category 33
+                next
+                edit 42
+                    set category 34
+                next
+                edit 43
+                    set category 35
+                next
+                edit 44
+                    set category 36
+                next
+                edit 45
+                    set category 37
+                next
+                edit 46
+                    set category 38
+                next
+                edit 47
+                    set category 39
+                next
+                edit 48
+                    set category 40
+                next
+                edit 49
+                    set category 42
+                next
+                edit 50
+                    set category 44
+                next
+                edit 51
+                    set category 46
+                next
+                edit 52
+                    set category 47
+                next
+                edit 53
+                    set category 48
+                next
+                edit 54
+                    set category 54
+                next
+                edit 55
+                    set category 55
+                next
+                edit 56
+                    set category 58
+                next
+                edit 57
+                    set category 68
+                next
+                edit 58
+                    set category 69
+                next
+                edit 59
+                    set category 70
+                next
+                edit 60
+                    set category 71
+                next
+                edit 61
+                    set category 77
+                next
+                edit 62
+                    set category 78
+                next
+                edit 63
+                    set category 79
+                next
+                edit 64
+                    set category 80
+                next
+                edit 65
+                    set category 82
+                next
+                edit 66
+                    set category 85
+                next
+                edit 67
+                    set category 87
+                next
+                edit 68
+                    set category 31
+                next
+                edit 69
+                    set category 41
+                next
+                edit 70
+                    set category 43
+                next
+                edit 71
+                    set category 49
+                next
+                edit 72
+                    set category 50
+                next
+                edit 73
+                    set category 51
+                next
+                edit 74
+                    set category 52
+                next
+                edit 75
+                    set category 53
+                next
+                edit 76
+                    set category 56
+                next
+                edit 77
+                    set category 81
+                next
+                edit 78
+                    set category 84
+                next
+                edit 79
+                next
+                edit 80
+                    set category 88
+                next
+                edit 81
+                    set category 89
+                next
+                edit 82
+                    set category 90
+                next
+                edit 83
+                    set category 91
+                next
+                edit 84
+                    set category 92
+                next
+                edit 85
+                    set category 93
+                next
+                edit 86
+                    set category 94
+                next
+                edit 87
+                    set category 95
+                next
+                edit 88
+                    set category 96
+                next
+                edit 89
+                    set category 97
+                next
+                edit 90
+                    set category 98
+                next
+                edit 91
+                    set category 99
+                next
+            end
+        end
+        set log-all-url enable
+        set web-content-log disable
+        set web-filter-command-block-log disable
+        set web-filter-cookie-log disable
+        set web-url-log disable
+        set web-invalid-domain-log disable
+        set web-ftgd-err-log disable
+    next
+    edit "WF-BLOQUEO-INVENTARIO"
+        config web
+            set urlfilter-table 1
+        end
+        config ftgd-wf
+            config filters
+                edit 1
+                    set category 1
+                next
+                edit 3
+                    set category 3
+                next
+                edit 4
+                    set category 4
+                next
+                edit 5
+                    set category 5
+                next
+                edit 6
+                    set category 6
+                next
+                edit 12
+                    set category 12
+                next
+                edit 59
+                    set category 59
+                next
+                edit 62
+                    set category 62
+                next
+                edit 83
+                    set category 83
+                    set action block
+                next
+                edit 96
+                    set category 96
+                    set action block
+                next
+                edit 98
+                    set category 98
+                    set action block
+                next
+                edit 99
+                    set category 99
+                    set action block
+                next
+                edit 2
+                    set category 2
+                    set action warning
+                next
+                edit 7
+                    set category 7
+                    set action warning
+                next
+                edit 8
+                    set category 8
+                    set action warning
+                next
+                edit 9
+                    set category 9
+                    set action warning
+                next
+                edit 11
+                    set category 11
+                    set action warning
+                next
+                edit 13
+                    set category 13
+                    set action warning
+                next
+                edit 14
+                    set category 14
+                    set action warning
+                next
+                edit 15
+                    set category 15
+                    set action warning
+                next
+                edit 16
+                    set category 16
+                    set action warning
+                next
+                edit 57
+                    set category 57
+                    set action warning
+                next
+                edit 63
+                    set category 63
+                    set action warning
+                next
+                edit 64
+                    set category 64
+                    set action warning
+                next
+                edit 65
+                    set category 65
+                    set action warning
+                next
+                edit 66
+                    set category 66
+                    set action warning
+                next
+                edit 67
+                    set category 67
+                    set action warning
+                next
+                edit 26
+                    set category 26
+                    set action block
+                next
+                edit 61
+                    set category 61
+                    set action block
+                next
+                edit 86
+                    set category 86
+                    set action block
+                next
+                edit 88
+                    set category 88
+                    set action block
+                next
+                edit 90
+                    set category 90
+                    set action block
+                next
+                edit 91
+                    set category 91
+                    set action block
+                next
+                edit 140
+                    set category 140
+                next
+                edit 141
+                    set category 141
+                next
+            end
+        end
+    next
+end
+config webfilter search-engine
+    edit "google"
+        set hostname ".*\\.google\\..*"
+        set url "^\\/((custom|search|images|videosearch|webhp)\\?)"
+        set query "q="
+        set safesearch url
+        set safesearch-str "&safe=active"
+    next
+    edit "yahoo"
+        set hostname ".*\\.yahoo\\..*"
+        set url "^\\/search(\\/video|\\/images){0,1}(\\?|;)"
+        set query "p="
+        set safesearch url
+        set safesearch-str "&vm=r"
+    next
+    edit "bing"
+        set hostname ".*\\.bing\\..*"
+        set url "^(\\/images|\\/videos)?(\\/search|\\/async|\\/asyncv2)\\?"
+        set query "q="
+        set safesearch header
+    next
+    edit "yandex"
+        set hostname "yandex\\..*"
+        set url "^\\/((yand|images\\/|video\\/)(search)|search\\/)\\?"
+        set query "text="
+        set safesearch url
+        set safesearch-str "&family=yes"
+    next
+    edit "youtube"
+        set hostname ".*youtube.*"
+        set safesearch header
+    next
+    edit "baidu"
+        set hostname ".*\\.baidu\\.com"
+        set url "^\\/s?\\?"
+        set query "wd="
+    next
+    edit "baidu2"
+        set hostname ".*\\.baidu\\.com"
+        set url "^\\/(ns|q|m|i|v)\\?"
+        set query "word="
+    next
+    edit "baidu3"
+        set hostname "tieba\\.baidu\\.com"
+        set url "^\\/f\\?"
+        set query "kw="
+    next
+    edit "vimeo"
+        set hostname ".*vimeo.*"
+        set url "^\\/search\\?"
+        set query "q="
+        set safesearch header
+    next
+    edit "yt-scan-1"
+        set url "www.youtube.com/user/"
+        set safesearch yt-scan
+    next
+    edit "yt-scan-2"
+        set url "www.youtube.com/youtubei/v1/browse"
+        set safesearch yt-scan
+    next
+    edit "yt-scan-3"
+        set url "www.youtube.com/youtubei/v1/player"
+        set safesearch yt-scan
+    next
+    edit "yt-scan-4"
+        set url "www.youtube.com/youtubei/v1/navigator"
+        set safesearch yt-scan
+    next
+    edit "yt-channel"
+        set url "www.youtube.com/channel"
+        set safesearch yt-channel
+    next
+    edit "yt-pattern"
+        set url "youtube.com/channel/"
+        set safesearch yt-pattern
+    next
+    edit "twitter"
+        set hostname "twitter\\.com"
+        set url "^\\/i\\/api\\/graphql\\/.*\\/UserByScreenName"
+        set query "variables="
+        set safesearch translate
+    next
+    edit "google-translate-1"
+        set hostname "translate\\.google\\..*"
+        set url "^\\/translate"
+        set query "u="
+        set safesearch translate
+    next
+    edit "google-translate-2"
+        set hostname ".*\\.translate\\.goog"
+        set url "^\\/"
+        set safesearch translate
+    next
+    edit "translate"
+        set hostname "translate\\.google\\..*"
+        set url "^\\/translate\\?"
+        set query "u="
+        set safesearch translate
+    next
+end
+config emailfilter profile
+    edit "sniffer-profile"
+        set comment "Malware and phishing URL monitoring."
+        config imap
+        end
+        config pop3
+        end
+        config smtp
+        end
+    next
+    edit "default"
+        set comment "Malware and phishing URL filtering."
+        config imap
+        end
+        config pop3
+        end
+        config smtp
+        end
+    next
+end
+config wanopt settings
+    set host-id "default-id"
+end
+config wanopt profile
+    edit "default"
+        set comments "Default WANopt profile."
+    next
+end
+config log memory setting
+    set status enable
+end
+config log null-device setting
+    set status disable
+end
+config firewall schedule recurring
+    edit "always"
+        set day sunday monday tuesday wednesday thursday friday saturday
+    next
+    edit "none"
+    next
+    edit "default-darrp-optimize"
+        set start 01:00
+        set end 01:30
+        set day sunday monday tuesday wednesday thursday friday saturday
+    next
+end
+config firewall ssh local-key
+    edit "Fortinet_SSH_RSA2048"
+        set password ENC 1Jh/9gOA+mY5ooVQgojaxx+L+Wj1GYl2GMJlKJ2VqmvTFrWSsMg80BTf59zYgKQlQXpGp9tme/a8pBebH8Q8LFdtQyhwswV5b679AjprwK7wPD2Y3dwdPwAec1ko5YPxTGeCwDF7o/HmcyobbB11dbp2A0/mVG9vez0+55pjbR0QL6KioQLE6tGjtC5lfsQpDoqmZQ==
+        set source built-in
+    next
+    edit "Fortinet_SSH_DSA1024"
+        set password ENC xo2qOZpeJO2BUENlQWzBrH4X09Qvlr9EkR5M5gcC+XY6YN2ZgVBxTWDWdb+4PwdgPr+8WOBwbm8PzSTgB77LH8LxxWvM8fOObRBCAHMC9S3Hbv0IgfCTXGK5qKfc9t7N6t8UZH4RmYYUAoY6mYGWGokfjUnbAIXOTe3+DhU0byV1Cn8mhclSnM2A4mQ5ZDgKHpIGDQ==
+        set source built-in
+    next
+    edit "Fortinet_SSH_ECDSA256"
+        set password ENC CDoMqhKOGetZUXvyrfukEYeKEq2MPJ3qcGeDjcnR9L+JMFjl1TZfDQ7k7LY6feVIlkey9FIomGI5Ms+n9kXJqm7T59HaKpCM2wpyNe2LFe2U1lvzSOMfiEujVtC2hwMP8lh3SlM92R40i0gtlNuYhowfOfPWGh2VfVuwHQ5lQZTH0frbzGxB3YTRRqlUjs1XpyPiOw==
+        set source built-in
+    next
+    edit "Fortinet_SSH_ECDSA384"
+        set password ENC xStJcY3RfHiqiT0V1iK/NdCM1MQJ+dfxMXuRrq6YticBqfWZINFKU0aCxZQx0KhmzJXkFd91PePSbkUAFiz0tZpz1dYVtlKJFBtmAavhzHbNI2A2BUSWJt0i9mEDLvjCuiYfFXQvY/LechyWFCubHDglsPEZa3bAK2tzOHWzlfSCUHSXr1hKPmkgaDGbaXIjpHrORw==
+        set source built-in
+    next
+    edit "Fortinet_SSH_ECDSA521"
+        set password ENC R6+MEucjh69BH5ftU43LfAbB/Q6rIX8SIbyUzGfdGyDrRCX4n9NrCChScz1SML63I2+5+xMbiggC+Q/Rr/jKpd/EXWTvAQz8ttAurflKQ8UWZnzlIE4lB5aYgQu88oc2U+ltiovgMi4ehHEtHSzW4+B/TaqZB8EovNM0UuV610vFNaxUkEZLyz15tGyESKhfz24pfg==
+        set source built-in
+    next
+    edit "Fortinet_SSH_ED25519"
+        set password ENC fO2G4MKfeCMizhJfYnJVVuahN8/9tVSYyuRa+6DPcN1q66frZHAdoUrjDZwHqgY3CRmTynqwVgzBg+KeoPUXpYc3iQBw2Ul/ysNgld3b0R97I/hO1GGE3bViITdPSenT2f2O4ahforHopoyS+WBeTs/jXVTCno6SGBUEHbs1cITqif0+AsRYUHYoQIMgtNSA5SFPPw==
+        set source built-in
+    next
+end
+config firewall ssh local-ca
+    edit "Fortinet_SSH_CA"
+        set password ENC Oc+g6jBuxzcuN3Bk82QbTo5PR5rSkn6bYD6ZHTxz8iRFzVat60qj/mLLySh8XPr2Z01cKR4l7iI6IPO80xqK56Ud12l2dHSJPzoLRllb9WybN9psW0L28nekQA9XQyTjZLWBYRbU6WmBTOtWtr/t9et06/v1zeeQxtv+ZRe6Z96W52fsFOAd9oTMIOaRPvcubI/Tdg==
+        set source built-in
+    next
+    edit "Fortinet_SSH_CA_Untrusted"
+        set password ENC sLn7mTRXzAcbgyh+QPMaRoEWz9tCj9sIPJelOEzmvS8BntCQsizJFea72phSQ3ZVIoh2fyX1ZU/SH5d6+LxYksTPgY58aKqa69+9eP12OjO4iJKrJa3/j0LR+v/29oVMakRgZ5P8mp8pmMwnyBwEtTSo5WGChy/u4DJayA3TOhlsJlQBqUGvPoTtVwPwpDjzJtfc6A==
+        set source built-in
+    next
+end
+config firewall ssh setting
+    set caname "Fortinet_SSH_CA"
+    set untrusted-caname "Fortinet_SSH_CA_Untrusted"
+    set hostkey-rsa2048 "Fortinet_SSH_RSA2048"
+    set hostkey-dsa1024 "Fortinet_SSH_DSA1024"
+    set hostkey-ecdsa256 "Fortinet_SSH_ECDSA256"
+    set hostkey-ecdsa384 "Fortinet_SSH_ECDSA384"
+    set hostkey-ecdsa521 "Fortinet_SSH_ECDSA521"
+    set hostkey-ed25519 "Fortinet_SSH_ED25519"
+end
+config firewall profile-protocol-options
+    edit "default"
+        set comment "All default services."
+        config http
+            set ports 80
+            unset options
+            unset post-lang
+        end
+        config ftp
+            set ports 21
+            set options splice
+        end
+        config imap
+            set ports 143
+            set options fragmail
+        end
+        config mapi
+            set ports 135
+            set options fragmail
+        end
+        config pop3
+            set ports 110
+            set options fragmail
+        end
+        config smtp
+            set ports 25
+            set options fragmail splice
+        end
+        config nntp
+            set ports 119
+            set options splice
+        end
+        config ssh
+            unset options
+        end
+        config dns
+            set ports 53
+        end
+        config cifs
+            set ports 445
+            unset options
+        end
+    next
+end
+config firewall ssl-ssh-profile
+    edit "deep-inspection"
+        set comment "Read-only deep inspection profile."
+        config https
+            set ports 443
+            set status deep-inspection
+        end
+        config ftps
+            set ports 990
+            set status deep-inspection
+        end
+        config imaps
+            set ports 993
+            set status deep-inspection
+        end
+        config pop3s
+            set ports 995
+            set status deep-inspection
+        end
+        config smtps
+            set ports 465
+            set status deep-inspection
+        end
+        config ssh
+            set ports 22
+            set status disable
+        end
+        config dot
+            set status disable
+        end
+        config ssl-exempt
+            edit 1
+                set fortiguard-category 31
+            next
+            edit 2
+                set fortiguard-category 33
+            next
+            edit 3
+                set type wildcard-fqdn
+                set wildcard-fqdn "adobe"
+            next
+            edit 4
+                set type wildcard-fqdn
+                set wildcard-fqdn "Adobe Login"
+            next
+            edit 5
+                set type wildcard-fqdn
+                set wildcard-fqdn "android"
+            next
+            edit 6
+                set type wildcard-fqdn
+                set wildcard-fqdn "apple"
+            next
+            edit 7
+                set type wildcard-fqdn
+                set wildcard-fqdn "appstore"
+            next
+            edit 8
+                set type wildcard-fqdn
+                set wildcard-fqdn "auth.gfx.ms"
+            next
+            edit 9
+                set type wildcard-fqdn
+                set wildcard-fqdn "citrix"
+            next
+            edit 10
+                set type wildcard-fqdn
+                set wildcard-fqdn "dropbox.com"
+            next
+            edit 11
+                set type wildcard-fqdn
+                set wildcard-fqdn "eease"
+            next
+            edit 12
+                set type wildcard-fqdn
+                set wildcard-fqdn "firefox update server"
+            next
+            edit 13
+                set type wildcard-fqdn
+                set wildcard-fqdn "fortinet"
+            next
+            edit 14
+                set type wildcard-fqdn
+                set wildcard-fqdn "googleapis.com"
+            next
+            edit 15
+                set type wildcard-fqdn
+                set wildcard-fqdn "google-drive"
+            next
+            edit 16
+                set type wildcard-fqdn
+                set wildcard-fqdn "google-play2"
+            next
+            edit 17
+                set type wildcard-fqdn
+                set wildcard-fqdn "google-play3"
+            next
+            edit 18
+                set type wildcard-fqdn
+                set wildcard-fqdn "Gotomeeting"
+            next
+            edit 19
+                set type wildcard-fqdn
+                set wildcard-fqdn "icloud"
+            next
+            edit 20
+                set type wildcard-fqdn
+                set wildcard-fqdn "itunes"
+            next
+            edit 21
+                set type wildcard-fqdn
+                set wildcard-fqdn "microsoft"
+            next
+            edit 22
+                set type wildcard-fqdn
+                set wildcard-fqdn "skype"
+            next
+            edit 23
+                set type wildcard-fqdn
+                set wildcard-fqdn "softwareupdate.vmware.com"
+            next
+            edit 24
+                set type wildcard-fqdn
+                set wildcard-fqdn "verisign"
+            next
+            edit 25
+                set type wildcard-fqdn
+                set wildcard-fqdn "Windows update 2"
+            next
+            edit 26
+                set type wildcard-fqdn
+                set wildcard-fqdn "live.com"
+            next
+            edit 27
+                set type wildcard-fqdn
+                set wildcard-fqdn "google-play"
+            next
+            edit 28
+                set type wildcard-fqdn
+                set wildcard-fqdn "update.microsoft.com"
+            next
+            edit 29
+                set type wildcard-fqdn
+                set wildcard-fqdn "swscan.apple.com"
+            next
+            edit 30
+                set type wildcard-fqdn
+                set wildcard-fqdn "autoupdate.opera.com"
+            next
+            edit 31
+                set type wildcard-fqdn
+                set wildcard-fqdn "cdn-apple"
+            next
+            edit 32
+                set type wildcard-fqdn
+                set wildcard-fqdn "mzstatic-apple"
+            next
+        end
+    next
+    edit "custom-deep-inspection"
+        set comment "Customizable deep inspection profile."
+        config https
+            set ports 443
+            set status deep-inspection
+        end
+        config ftps
+            set ports 990
+            set status deep-inspection
+        end
+        config imaps
+            set ports 993
+            set status deep-inspection
+        end
+        config pop3s
+            set ports 995
+            set status deep-inspection
+        end
+        config smtps
+            set ports 465
+            set status deep-inspection
+        end
+        config ssh
+            set ports 22
+            set status disable
+        end
+        config dot
+            set status disable
+        end
+        config ssl-exempt
+            edit 1
+                set fortiguard-category 31
+            next
+            edit 2
+                set fortiguard-category 33
+            next
+            edit 3
+                set type wildcard-fqdn
+                set wildcard-fqdn "adobe"
+            next
+            edit 4
+                set type wildcard-fqdn
+                set wildcard-fqdn "Adobe Login"
+            next
+            edit 5
+                set type wildcard-fqdn
+                set wildcard-fqdn "android"
+            next
+            edit 6
+                set type wildcard-fqdn
+                set wildcard-fqdn "apple"
+            next
+            edit 7
+                set type wildcard-fqdn
+                set wildcard-fqdn "appstore"
+            next
+            edit 8
+                set type wildcard-fqdn
+                set wildcard-fqdn "auth.gfx.ms"
+            next
+            edit 9
+                set type wildcard-fqdn
+                set wildcard-fqdn "citrix"
+            next
+            edit 10
+                set type wildcard-fqdn
+                set wildcard-fqdn "dropbox.com"
+            next
+            edit 11
+                set type wildcard-fqdn
+                set wildcard-fqdn "eease"
+            next
+            edit 12
+                set type wildcard-fqdn
+                set wildcard-fqdn "firefox update server"
+            next
+            edit 13
+                set type wildcard-fqdn
+                set wildcard-fqdn "fortinet"
+            next
+            edit 14
+                set type wildcard-fqdn
+                set wildcard-fqdn "googleapis.com"
+            next
+            edit 15
+                set type wildcard-fqdn
+                set wildcard-fqdn "google-drive"
+            next
+            edit 16
+                set type wildcard-fqdn
+                set wildcard-fqdn "google-play2"
+            next
+            edit 17
+                set type wildcard-fqdn
+                set wildcard-fqdn "google-play3"
+            next
+            edit 18
+                set type wildcard-fqdn
+                set wildcard-fqdn "Gotomeeting"
+            next
+            edit 19
+                set type wildcard-fqdn
+                set wildcard-fqdn "icloud"
+            next
+            edit 20
+                set type wildcard-fqdn
+                set wildcard-fqdn "itunes"
+            next
+            edit 21
+                set type wildcard-fqdn
+                set wildcard-fqdn "microsoft"
+            next
+            edit 22
+                set type wildcard-fqdn
+                set wildcard-fqdn "skype"
+            next
+            edit 23
+                set type wildcard-fqdn
+                set wildcard-fqdn "softwareupdate.vmware.com"
+            next
+            edit 24
+                set type wildcard-fqdn
+                set wildcard-fqdn "verisign"
+            next
+            edit 25
+                set type wildcard-fqdn
+                set wildcard-fqdn "Windows update 2"
+            next
+            edit 26
+                set type wildcard-fqdn
+                set wildcard-fqdn "live.com"
+            next
+            edit 27
+                set type wildcard-fqdn
+                set wildcard-fqdn "google-play"
+            next
+            edit 28
+                set type wildcard-fqdn
+                set wildcard-fqdn "update.microsoft.com"
+            next
+            edit 29
+                set type wildcard-fqdn
+                set wildcard-fqdn "swscan.apple.com"
+            next
+            edit 30
+                set type wildcard-fqdn
+                set wildcard-fqdn "autoupdate.opera.com"
+            next
+            edit 31
+                set type wildcard-fqdn
+                set wildcard-fqdn "cdn-apple"
+            next
+            edit 32
+                set type wildcard-fqdn
+                set wildcard-fqdn "mzstatic-apple"
+            next
+        end
+    next
+    edit "no-inspection"
+        set comment "Read-only profile that does no inspection."
+        config https
+            set status disable
+        end
+        config ftps
+            set status disable
+        end
+        config imaps
+            set status disable
+        end
+        config pop3s
+            set status disable
+        end
+        config smtps
+            set status disable
+        end
+        config ssh
+            set ports 22
+            set status disable
+        end
+        config dot
+            set status disable
+        end
+    next
+    edit "certificate-inspection"
+        set comment "Read-only SSL handshake inspection profile."
+        config https
+            set ports 443
+            set status certificate-inspection
+        end
+        config ftps
+            set status disable
+        end
+        config imaps
+            set status disable
+        end
+        config pop3s
+            set status disable
+        end
+        config smtps
+            set status disable
+        end
+        config ssh
+            set ports 22
+            set status disable
+        end
+        config dot
+            set status disable
+        end
+    next
+end
+config waf profile
+    edit "default"
+        config signature
+            config main-class 100000000
+                set action block
+                set severity high
+            end
+            config main-class 20000000
+            end
+            config main-class 30000000
+                set status enable
+                set action block
+                set severity high
+            end
+            config main-class 40000000
+            end
+            config main-class 50000000
+                set status enable
+                set action block
+                set severity high
+            end
+            config main-class 60000000
+            end
+            config main-class 70000000
+                set status enable
+                set action block
+                set severity high
+            end
+            config main-class 80000000
+                set status enable
+                set severity low
+            end
+            config main-class 110000000
+                set status enable
+                set severity high
+            end
+            config main-class 90000000
+                set status enable
+                set action block
+                set severity high
+            end
+            set disabled-signature 80080005 80200001 60030001 60120001 80080003 90410001 90410002
+        end
+        config constraint
+            config header-length
+                set status enable
+                set log enable
+                set severity low
+            end
+            config content-length
+                set status enable
+                set log enable
+                set severity low
+            end
+            config param-length
+                set status enable
+                set log enable
+                set severity low
+            end
+            config line-length
+                set status enable
+                set log enable
+                set severity low
+            end
+            config url-param-length
+                set status enable
+                set log enable
+                set severity low
+            end
+            config version
+                set log enable
+            end
+            config method
+                set action block
+                set log enable
+            end
+            config hostname
+                set action block
+                set log enable
+            end
+            config malformed
+                set log enable
+            end
+            config max-cookie
+                set status enable
+                set log enable
+                set severity low
+            end
+            config max-header-line
+                set status enable
+                set log enable
+                set severity low
+            end
+            config max-url-param
+                set status enable
+                set log enable
+                set severity low
+            end
+            config max-range-segment
+                set status enable
+                set log enable
+                set severity high
+            end
+        end
+    next
+end
+config firewall policy
+    edit 1
+        set name "VLAN20-Servidores"
+        set uuid f61fd574-c442-51f1-3ff0-9fc9126f124f
+        set srcintf "VLAN20"
+        set dstintf "port3"
+        set action accept
+        set srcaddr "all"
+        set dstaddr "GRP-Servidores"
+        set schedule "always"
+        set service "HTTP" "HTTPS" "SSH"
+        set logtraffic all
+    next
+    edit 9
+        set name "DENY-SSH-VLAN10"
+        set uuid 8c50b95c-c45f-51f1-d880-1cadb0a37ea2
+        set srcintf "VLAN 10"
+        set dstintf "port3"
+        set srcaddr "all"
+        set dstaddr "GRP-Servidores"
+        set schedule "always"
+        set service "SSH"
+        set logtraffic all
+    next
+    edit 2
+        set name "VLAN10-WEB"
+        set uuid 54741bbc-c443-51f1-43b0-555c341b53b6
+        set srcintf "VLAN 10"
+        set dstintf "port3"
+        set action accept
+        set srcaddr "all"
+        set dstaddr "SRV-CAJA" "SRV-INVENTARIO"
+        set schedule "always"
+        set service "HTTP" "HTTPS"
+        set utm-status enable
+        set ssl-ssh-profile "certificate-inspection"
+        set webfilter-profile "WF-BLOQUEO-INVENTARIO"
+        set logtraffic all
+    next
+    edit 3
+        set name "DMZ-UPDATES"
+        set uuid 8851bbd8-c443-51f1-9d62-5b0eaa93426d
+        set srcintf "port3"
+        set dstintf "port1"
+        set action accept
+        set srcaddr "GRP-Servidores"
+        set dstaddr "GRP-UPDATES"
+        set schedule "always"
+        set service "HTTP" "HTTPS"
+        set logtraffic all
+        set nat enable
+    next
+    edit 4
+        set name "DMZ-DNS"
+        set uuid aa8dc75a-c443-51f1-fc06-e0187162ba2a
+        set srcintf "port3"
+        set dstintf "port1"
+        set action accept
+        set srcaddr "GRP-Servidores"
+        set dstaddr "DNS-Google"
+        set schedule "always"
+        set service "DNS"
+        set logtraffic all
+        set nat enable
+    next
+    edit 5
+        set name "USUARIOS-INTERNET-VLAN10"
+        set uuid e2567934-c443-51f1-b61e-31ec5bc0e33b
+        set srcintf "VLAN 10"
+        set dstintf "port1"
+        set action accept
+        set srcaddr "all"
+        set dstaddr "all"
+        set schedule "always"
+        set service "ALL"
+        set logtraffic all
+        set nat enable
+    next
+    edit 6
+        set name "USUARI0S-INTERNET-VLAN20"
+        set uuid 43bc02d4-c444-51f1-09e1-fb5cbab106bb
+        set srcintf "VLAN20"
+        set dstintf "port1"
+        set action accept
+        set srcaddr "all"
+        set dstaddr "all"
+        set schedule "always"
+        set service "ALL"
+        set logtraffic all
+        set nat enable
+    next
+    edit 7
+        set name "DENY-DMZ-A-VLAN10"
+        set uuid 74baa372-c444-51f1-c047-0f31de71547e
+        set srcintf "port3"
+        set dstintf "VLAN 10"
+        set srcaddr "all"
+        set dstaddr "all"
+        set schedule "always"
+        set service "ALL"
+        set logtraffic all
+    next
+    edit 8
+        set name "DENY-DMZ-A-VLAN20"
+        set uuid 91f23608-c444-51f1-c09c-96beddfd2b85
+        set srcintf "port3"
+        set dstintf "VLAN20"
+        set srcaddr "all"
+        set dstaddr "all"
+        set schedule "always"
+        set service "ALL"
+        set logtraffic all
+    next
+end
+config switch-controller security-policy 802-1X
+    edit "802-1X-policy-default"
+        set user-group "SSO_Guest_Users"
+        set mac-auth-bypass disable
+        set open-auth disable
+        set eap-passthru enable
+        set eap-auto-untagged-vlans enable
+        set guest-vlan disable
+        set auth-fail-vlan disable
+        set framevid-apply enable
+        set radius-timeout-overwrite disable
+        set authserver-timeout-vlan disable
+    next
+end
+config switch-controller security-policy local-access
+    edit "default"
+        set mgmt-allowaccess https ping ssh
+        set internal-allowaccess https ping ssh
+    next
+end
+config switch-controller lldp-profile
+    edit "default"
+        set med-tlvs inventory-management network-policy location-identification
+        set auto-isl disable
+        config med-network-policy
+            edit "voice"
+            next
+            edit "voice-signaling"
+            next
+            edit "guest-voice"
+            next
+            edit "guest-voice-signaling"
+            next
+            edit "softphone-voice"
+            next
+            edit "video-conferencing"
+            next
+            edit "streaming-video"
+            next
+            edit "video-signaling"
+            next
+        end
+        config med-location-service
+            edit "coordinates"
+            next
+            edit "address-civic"
+            next
+            edit "elin-number"
+            next
+        end
+    next
+    edit "default-auto-isl"
+    next
+    edit "default-auto-mclag-icl"
+        set auto-mclag-icl enable
+    next
+end
+config switch-controller qos dot1p-map
+    edit "voice-dot1p"
+        set priority-0 queue-4
+        set priority-1 queue-4
+        set priority-2 queue-3
+        set priority-3 queue-2
+        set priority-4 queue-3
+        set priority-5 queue-1
+        set priority-6 queue-2
+        set priority-7 queue-2
+    next
+end
+config switch-controller qos ip-dscp-map
+    edit "voice-dscp"
+        config map
+            edit "1"
+                set cos-queue 1
+                set value 46
+            next
+            edit "2"
+                set cos-queue 2
+                set value 24,26,48,56
+            next
+            edit "5"
+                set cos-queue 3
+                set value 34
+            next
+        end
+    next
+end
+config switch-controller qos queue-policy
+    edit "default"
+        set schedule round-robin
+        set rate-by kbps
+        config cos-queue
+            edit "queue-0"
+            next
+            edit "queue-1"
+            next
+            edit "queue-2"
+            next
+            edit "queue-3"
+            next
+            edit "queue-4"
+            next
+            edit "queue-5"
+            next
+            edit "queue-6"
+            next
+            edit "queue-7"
+            next
+        end
+    next
+    edit "voice-egress"
+        set schedule weighted
+        set rate-by kbps
+        config cos-queue
+            edit "queue-0"
+            next
+            edit "queue-1"
+                set weight 0
+            next
+            edit "queue-2"
+                set weight 6
+            next
+            edit "queue-3"
+                set weight 37
+            next
+            edit "queue-4"
+                set weight 12
+            next
+            edit "queue-5"
+            next
+            edit "queue-6"
+            next
+            edit "queue-7"
+            next
+        end
+    next
+end
+config switch-controller qos qos-policy
+    edit "default"
+    next
+    edit "voice-qos"
+        set trust-dot1p-map "voice-dot1p"
+        set trust-ip-dscp-map "voice-dscp"
+        set queue-policy "voice-egress"
+    next
+end
+config switch-controller storm-control-policy
+    edit "default"
+        set description "default storm control on all port"
+    next
+    edit "auto-config"
+        set description "storm control policy for fortilink-isl-icl port"
+        set storm-control-mode disabled
+    next
+end
+config switch-controller auto-config policy
+    edit "default"
+    next
+    edit "default-icl"
+        set poe-status disable
+        set igmp-flood-report enable
+        set igmp-flood-traffic enable
+    next
+end
+config switch-controller initial-config template
+    edit "_default"
+        set vlanid 1
+    next
+    edit "quarantine"
+        set vlanid 4093
+        set dhcp-server enable
+    next
+    edit "rspan"
+        set vlanid 4092
+        set dhcp-server enable
+    next
+    edit "voice"
+        set vlanid 4091
+    next
+    edit "video"
+        set vlanid 4090
+    next
+    edit "onboarding"
+        set vlanid 4089
+    next
+    edit "nac_segment"
+        set vlanid 4088
+        set dhcp-server enable
+    next
+end
+config switch-controller switch-profile
+    edit "default"
+    next
+end
+config switch-controller ptp settings
+    set mode disable
+end
+config switch-controller ptp policy
+    edit "default"
+        set status enable
+    next
+end
+config switch-controller remote-log
+    edit "syslogd"
+    next
+    edit "syslogd2"
+    next
+end
+config wireless-controller setting
+    set darrp-optimize-schedules "default-darrp-optimize"
+end
+config wireless-controller arrp-profile
+    edit "arrp-default"
+    next
+end
+config wireless-controller wids-profile
+    edit "default"
+        set comment "Default WIDS profile."
+        set ap-scan enable
+        set wireless-bridge enable
+        set deauth-broadcast enable
+        set null-ssid-probe-resp enable
+        set long-duration-attack enable
+        set invalid-mac-oui enable
+        set weak-wep-iv enable
+        set auth-frame-flood enable
+        set assoc-frame-flood enable
+        set spoofed-deauth enable
+        set asleap-attack enable
+        set eapol-start-flood enable
+        set eapol-logoff-flood enable
+        set eapol-succ-flood enable
+        set eapol-fail-flood enable
+        set eapol-pre-succ-flood enable
+        set eapol-pre-fail-flood enable
+    next
+    edit "default-wids-apscan-enabled"
+        set ap-scan enable
+    next
+end
+config wireless-controller ble-profile
+    edit "fortiap-discovery"
+        set advertising ibeacon eddystone-uid eddystone-url
+        set ibeacon-uuid "wtp-uuid"
+    next
+end
+config router rip
+    config redistribute "connected"
+    end
+    config redistribute "static"
+    end
+    config redistribute "ospf"
+    end
+    config redistribute "bgp"
+    end
+    config redistribute "isis"
+    end
+end
+config router ripng
+    config redistribute "connected"
+    end
+    config redistribute "static"
+    end
+    config redistribute "ospf"
+    end
+    config redistribute "bgp"
+    end
+    config redistribute "isis"
+    end
+end
+config router ospf
+    config redistribute "connected"
+    end
+    config redistribute "static"
+    end
+    config redistribute "rip"
+    end
+    config redistribute "bgp"
+    end
+    config redistribute "isis"
+    end
+end
+config router ospf6
+    config redistribute "connected"
+    end
+    config redistribute "static"
+    end
+    config redistribute "rip"
+    end
+    config redistribute "bgp"
+    end
+    config redistribute "isis"
+    end
+end
+config router bgp
+    config redistribute "connected"
+    end
+    config redistribute "rip"
+    end
+    config redistribute "ospf"
+    end
+    config redistribute "static"
+    end
+    config redistribute "isis"
+    end
+    config redistribute6 "connected"
+    end
+    config redistribute6 "rip"
+    end
+    config redistribute6 "ospf"
+    end
+    config redistribute6 "static"
+    end
+    config redistribute6 "isis"
+    end
+end
+config router isis
+    config redistribute "connected"
+    end
+    config redistribute "rip"
+    end
+    config redistribute "ospf"
+    end
+    config redistribute "bgp"
+    end
+    config redistribute "static"
+    end
+    config redistribute6 "connected"
+    end
+    config redistribute6 "rip"
+    end
+    config redistribute6 "ospf"
+    end
+    config redistribute6 "bgp"
+    end
+    config redistribute6 "static"
+    end
+end
+config router multicast
+end
+
+FW-FORTIGATE #
+******************************************************************************************************
+SRV-Caja y SRV-Inventario
+
+cat /etc/network/interfaces
+cat /etc/resolv.conf
+cat /etc/apt/sources.list
+cat /var/www/html/index.html
+service nginx status
+service ssh status
+*****************************************************************************************************
+SRV-DB
+
+cat /etc/network/interfaces
+cat /etc/resolv.conf
+mysql -e "SHOW DATABASES;"
+service mysql status
+service ssh status

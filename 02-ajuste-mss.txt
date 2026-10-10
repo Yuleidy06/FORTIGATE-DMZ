@@ -1,0 +1,11 @@
+# =============================================================
+# FortiGate - Ajuste de rendimiento del laboratorio
+# Las descargas de apt se cortaban dentro de la red virtual de GNS3.
+# Se reduce el TCP MSS en la política DMZ-UPDATES.
+# GUI: Policy & Objects -> Firewall Policy -> clic derecho en
+#      DMZ-UPDATES -> Edit in CLI
+# =============================================================
+set tcp-mss-sender 1350
+set tcp-mss-receiver 1350
+next
+end
